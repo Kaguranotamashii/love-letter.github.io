@@ -1,0 +1,39 @@
+#text {
+  height: 1400px;
+  width: 950px;
+
+  text-align: center;
+  margin: 0 auto;
+  float: left;
+  background-color: white;
+  z-index: 20;
+  overflow-x: hidden;
+  bottom: auto;
+  position: absolute;
+  left: 110px;
+}
+
+#text .diyiduan {
+  margin: 0 auto;
+
+  width: 95%;
+  height: 800px;
+  font-size: 25px;
+  text-align: left;
+}
+
+#text #tou {
+  text-align: left;
+  font-size: 50px;
+}
+
+/* #dierduan {
+  margin: 10px;
+
+  width: 95%;
+  text-align: center;
+  z-index: 11;
+  font-size: 30px;
+
+
+} */
