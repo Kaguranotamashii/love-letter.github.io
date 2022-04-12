@@ -1,0 +1,22 @@
+#xiharuo {
+  -webkit-writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
+  font-size: 51px;
+  z-index: 2000;
+  position: absolute;
+  float: left;
+  height: 1100px;
+  width: 1050px;
+  /* left: 120px; */
+  letter-spacing: 3px;
+  top: auto;
+  background-color: #fff;
+  right: -45px;
+
+}
+
+div {
+  padding: 5px;
+  margin: auto auto;
+  /*  border: 1px solid lightblue;*/
+}

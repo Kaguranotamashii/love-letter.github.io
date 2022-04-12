@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--球球大佬们别看我写的垃圾代码了-->
+<!--情话什么的真的别看了，好丢脸-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>❤❤❤❤❤</title>
+    <link rel="stylesheet" href="css/letter.css">
+    <link rel="stylesheet" href="css/xiharuo.css">
+    <link rel="stylesheet" href="css/text.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="shortcut icon" href="img/favicon.ico">
+
+    <style>
+        @font-face {
+            font-family: "小可奶酪体";
+            src: url(font/小可奶酪体商用免费@庆科字体.ttf);
+        }
+
+        @font-face {
+            font-family: "方正楷体";
+            src: url(font/方正楷体简体.ttf);
+        }
+
+        @font-face {
+            font-family: "framboise";
+            src: url(font/framboise.ttf);
+        }
+
+        @font-face {
+            font-family: "白舟行書Pro";
+            src: url(font/CC0_白舟行書Pro教漢.ttf);
+        }
+    </style>
+</head>
+
+<body>
+    <!--body大盒子-->
+    <div id="bodys" style="width: 1050px;height: 2500px;text-align: center;position:absolute">
+        <script src="js/music.js"></script>
+        <div id="audio">
+            <!--音乐控制-->
+            <div style=" top: 0px; border-radius: 5p; width: 950px;height: auto;" id="audioAdd">
+                <img src="https://kaguranotamashii-1308648145.cos.ap-beijing.myqcloud.com/fengmian.png" alt=""
+                    width="1080px" height="auto" style="padding: 0 auto;">
+                <marquee scrollamount:20 style="font-size: 50px;">VOYAGER
+                    ～日付のない墓標
+                </marquee>
+                <p style="text-align: center;">
+                    <audio controls="" preload="none" src="audio/日付のない墓標.mp3" id="myaudio" loop="loop"
+                        style="width: 1000px;height: 70px;"></audio>
+                </p>
+
+                <p style="text-align: center;width: 900px;height: 100px;" id="audio1">
+                    <a href="#" onclick="control()"
+                        style="float:left;font-size: 30px;width: 150px;height: 100px; background-color: crimson; text-decoration: none; color: aliceblue;border-radius: 3px;display: inline-block;margin-right: 14px;">播放
+                        /
+                        暂停</a>
+                    <a href="#" onclick="repeat()"
+                        style="float:left;font-size: 30px;width: 150px;height: 100px;background-color: violet; text-decoration: none; color: aliceblue;border-radius: 3px;display: inline-block;margin-right: 14px;">重新开始播放</a>
+                    <a style="width: 150px;height: 100px;font-size: 30px;float:left;display: inline-block;border-radius: 3px;background-color: dimgray;color: aliceblue;margin-right: 14px;"
+                        id="next">
+                        点我进入下一个页面
+                    </a>
+                </p>
+                <style>
+                    input::-webkit-input-placeholder {
+                        /* placeholder颜色 */
+                        color: #aab2bd;
+                        /* placeholder字体大小 */
+                        font-size: 35px;
+                    }
+                </style>
+                <input type="text" id="password" placeholder="请输入答案" style="width: 300px;height: 50px;">
+                <button id="ok" style="width: 100px;height: 50px;">点我验证</button>
+            </div>
+
+        </div>
+        <div id=""></div>
+        <div id="letter">
+            <img src="img/litter.png" alt="letter" id="letters">
+            <p style="font-size: 50px;font-family: changcheng;"></p>
+        </div>
+
+        <div id="xiharuo">
+        </div>
+        <script src="js/next.js"></script>
+
+        <div id="text">
+            <p style="font-size: 45px;">Love lettrt</p>
+            <div class="diyiduan">
+                <div id="tou"> </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var audioo = document.getElementById("myaudio");
+        window.onmousemove = function () {
+            audioo.play();
+        }
+    </script>
+</body>
+
+</html>

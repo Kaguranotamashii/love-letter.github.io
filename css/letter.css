@@ -1,0 +1,46 @@
+#letter {
+  width: 1080px;
+  height: 1700PX;
+  background-color: white;
+  z-index: 99999;
+  float: left;
+  right: -55px;
+  position: absolute;
+}
+
+#letter img {
+  width: 1000px;
+  height: auto;
+  display: inline-block;
+
+}
+
+/*
+.radius {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: black;
+  padding-top: -20px;
+}
+
+.yuanxing {
+  width: 50px;
+  height: 50px;
+  background-size: 60px 60px;
+  position: absolute;
+  top: 355px;
+  right: 45%;
+  background-image: url(../img/kai.png);
+  border-radius: 60px
+}
+*/
+@font-face {
+  font-family: "changcheng";
+  src: url(../font/长城行书体.TTF);
+}
+
+@font-face {
+  font-family: "hangshu";
+  src: url(../font/hangshu.ttf);
+}
